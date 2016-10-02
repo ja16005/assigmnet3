@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/iiit"
+    tools:context="com.example.jahnavi.assignment3.activity4">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="407dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:text="Student Name : "
+                android:layout_weight="0.15"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/name" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="206dp"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:layout_height="35dp"
+                android:id="@+id/TextViewName" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:text="Roll Number : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.16"/>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="206dp"
+                android:layout_height="35dp"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:layout_weight="0.50"
+                android:id="@+id/TextViewroll" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Semester: "
+                android:layout_weight="0.16"/>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="206dp"
+                android:layout_weight="0.50"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"
+                android:layout_height="35dp"
+                android:id="@+id/TextViewSem" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:textColor="#11a9a4"
+                android:text="Load"
+                android:onClick="load"
+                android:layout_weight="0.50"
+                android:id="@+id/ButtonLoad" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="back"
+                android:textColor="#11a9a4"
+                android:text="Back"
+                android:layout_weight="0.50"
+                android:id="@+id/ButtonBack" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
